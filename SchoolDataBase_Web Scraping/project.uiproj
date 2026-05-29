@@ -1,0 +1,6 @@
+{
+  "Name": "SchoolDataBaseNew",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}
