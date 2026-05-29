@@ -1,0 +1,63 @@
+{
+  "name": "PDF_Extraction",
+  "projectId": "b422c57e-5917-4bbd-b5e6-a8b3fa458777",
+  "description": "PDF_Extraction(New)\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.35.0]",
+    "UiPath.Excel.Activities": "[3.3.0-preview]",
+    "UiPath.IntelligentOCR.Activities": "[6.26.0]",
+    "UiPath.OmniPage.Activities": "[1.21.0]",
+    "UiPath.System.Activities": "[25.8.1]",
+    "UiPath.UIAutomation.Activities": "[26.1.0-preview]",
+    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.12.5-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.176.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bbfca72f-e4d6-404e-afb3-ee57309de501",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
